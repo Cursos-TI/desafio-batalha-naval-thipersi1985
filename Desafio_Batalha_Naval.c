@@ -3,7 +3,7 @@
 int main (){
 
 	int mapa [10][10]; //criação da matriz
-	int navio_h [3] = {3, 3, 3}; //criação dos navio 1 (posicionado na horizontal)
+	int navio_h [3] = {3, 3, 3}; //criação do navio 1 (posicionado na horizontal)
 	int navio_v [3] = {3, 3, 3}; //criação do navio 2 (posicionado na vertival)
 	int x, y, i1, j1, i2, j2; //variáveis utilizadas para entrada e saída de dados 
 	int teste1, teste2; //variáveis de controle necessárias para teste da estrutura while, na entrada de dados
