@@ -5,19 +5,19 @@
 
 int main (){
 
-	int mapa [10][10];							//criação da matriz
-	int navio_h [3] = {3, 3, 3}; 				//criação dos navio 1 (posicionado na horizontal)
-	int navio_v [3] = {3, 3, 3}; 				//criação do navio 2 (posicionado na vertival)
-	int navio_dd [3] = {3, 3, 3}; 				//criação do navio 3 (diagonal-direita)
-	int navio_de [3] = {3, 3, 3}; 				//criação do navio 4 (diagonal-esquerda)
-	int i, j, i1, j1, i2, j2, i3, j3, i4, j4; 	//variáveis utilizadas para entrada e saída de dados 
-	int teste1, teste2, teste3, teste4;			//variáveis de controle necessárias para teste da estrutura while, na entrada de dados
-	int a, b;  									// variáveis de controle para a estrutura "do - while", necessárias para implementar os cabeçalhos
-	char *vetorCol [10] = {"   A", "B", "C", "D", "E", "F", "G", "H", "I", "J"};  		//cabeçalho das coluna
+	int mapa [10][10];	//criação da matriz
+	int navio_h [3] = {3, 3, 3}; //criação dos navio 1 (posicionado na horizontal)
+	int navio_v [3] = {3, 3, 3}; //criação do navio 2 (posicionado na vertival)
+	int navio_dd [3] = {3, 3, 3}; //criação do navio 3 (diagonal-direita)
+	int navio_de [3] = {3, 3, 3}; //criação do navio 4 (diagonal-esquerda)
+	int i, j, i1, j1, i2, j2, i3, j3, i4, j4; //variáveis utilizadas para entrada e saída de dados 
+	int teste1, teste2, teste3, teste4;	//variáveis de controle necessárias para teste da estrutura while, na entrada de dados
+	int a, b;  	// variáveis de controle para a estrutura "do - while", necessárias para implementar os cabeçalhos
+	char *vetorCol [10] = {"   A", "B", "C", "D", "E", "F", "G", "H", "I", "J"};  //cabeçalho das coluna
 	char *vetorLin [10] = {" 1", " 2", " 3", " 4", " 5", " 6", " 7", " 8", " 9", "10"}; //cabeçalho das linha
-	int cone [LINHA][COLUNA];
-	int cruz [LINHA][COLUNA];
-	int octaedro [LINHA][COLUNA];
+	int cone [LINHA][COLUNA]; //matriz da habilidade cone
+	int cruz [LINHA][COLUNA]; //matriz da habilidade cruz
+	int octaedro [LINHA][COLUNA]; //matriz da habilidade octaedro
 
 	// o código abaixo preenche todas as posições da matriz com 0 (zero).
 	for (i = 0; i < 10; i++)
